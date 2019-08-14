@@ -95,13 +95,15 @@
         },
         "torch": {
             "hashes": [
-                "sha256:3f3023345c6db4db28a79f52ada186fc6307ba8a0c85252eb0a70b78eff3a443",
-                "sha256:87d4778e848e4c83505a0d10135d514871ea0ae2da75e0710be272ea5048f9e3",
-                "sha256:9f4182043f8ac72d6fd52c5189f1600c94e827b698748c355097077874e8c810",
-                "sha256:ee2c48794c767606f4629ee3d1f147e2fcb1a02a31b6bca252cc7c7e3ad22c4a"
+		"sha256:ac6d634468849876b1ae3ae8e35a6c4755be9eddac2708922782730ec0415cd0",
+		"sha256:337161e62354f40766be367a338766b409c59b64214436851ac81d6ef2e4f3ab",
+		"sha256:ac6d634468849876b1ae3ae8e35a6c4755be9eddac2708922782730ec0415cd0",
+		"sha256:40c644abef1767dcac58f3285021ea963123b392e5628d402e985123ea8701ca",
+		"sha256:cb1a87d732b084bf1d931b8d1e34c357b10b2f9f7bbdf1a41fe951d16007ed75",
+		"sha256:d7d48a3472688debf86ba9ba61b570d6ed0529413dacaa8408b84db878079395"
             ],
             "index": "pypi",
-            "version": "==1.1.0.post2"
+            "version": "==1.1.0"
         }
     },
     "develop": {
