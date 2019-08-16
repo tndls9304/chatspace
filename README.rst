@@ -33,7 +33,7 @@ Installation
 ------------
 
 
-From GitHub
+From pip
 ~~~~~~~~~~~
 
 .. code-block:: shell
