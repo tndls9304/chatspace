@@ -68,6 +68,7 @@ class ChatSpaceTrainer:
 
     def train(self, epochs=10, batch_size=64):
         for epoch_id in range(epochs):
+            self.decay_lr(epoch_id)
             self.run_epoch(
                 self.train_dataset,
                 batch_size=batch_size,
@@ -158,6 +159,11 @@ class ChatSpaceTrainer:
 
         loss = self.criterion(output.transpose(1, 2), batch["label"])
         return {"loss": loss, "output": output}
+
+    def decay_lr(self, epoch):
+        lr = self.config['learning_rate'] * (0.9 ** (epoch // self.config['decay_start_epoch']))
+        for param_group in self.optimizer.param_groups:
+            param_group['lr'] = lr
 
     def update(self, loss):
         self.optimizer.zero_grad()
