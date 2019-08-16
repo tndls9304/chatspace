@@ -95,15 +95,15 @@
         },
         "torch": {
             "hashes": [
-		"sha256:ac6d634468849876b1ae3ae8e35a6c4755be9eddac2708922782730ec0415cd0",
-		"sha256:337161e62354f40766be367a338766b409c59b64214436851ac81d6ef2e4f3ab",
-		"sha256:ac6d634468849876b1ae3ae8e35a6c4755be9eddac2708922782730ec0415cd0",
-		"sha256:40c644abef1767dcac58f3285021ea963123b392e5628d402e985123ea8701ca",
-		"sha256:cb1a87d732b084bf1d931b8d1e34c357b10b2f9f7bbdf1a41fe951d16007ed75",
-		"sha256:d7d48a3472688debf86ba9ba61b570d6ed0529413dacaa8408b84db878079395"
+                "sha256:0698d0a48014b9b8f36d93e69901eca2e7ec712cd2033908f7a77e7d86a4f0d7",
+                "sha256:b87fd224a7de3bc01ce87eb947698797b4514e27115b0aa60a56991515dd9dd6",
+                "sha256:43a0e28c448ddeea65fb9e956bc743389592afac824095bdbc08e8a87364c639",
+                "sha256:a13bf6f78a49d844b85c142b8cd62d2e1833a11ed21ea0bc6b1ac73d24c76415",
+                "sha256:2ac8e58b069232f079bd289aa160366a9367ae1a4616a2c1007dceed19ff9bfa",
+                "sha256:661ad06b4616663149bd504e8c0271196d0386712e21a92619d95ba88138794a"
             ],
             "index": "pypi",
-            "version": "==1.1.0"
+            "version": "==1.2.0"
         }
     },
     "develop": {
