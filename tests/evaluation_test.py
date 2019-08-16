@@ -50,7 +50,7 @@ def test_hard(spacer, target_corpus):
     assert metric["acc"] >= 0.95
     assert metric["precision"] >= 0.95
     assert metric["recall"] >= 0.90
-    assert metric["f1"] >= 0.93
+    assert metric["f1"] >= 0.94
 
 
 def read_file(path):
