@@ -18,5 +18,6 @@
   "lstm_bidirectional": true,
   "dropout_keep_prob": 0.1,
   "apply_weight": false,
-  "lstm_layers": 1
+  "lstm_layers": 1,
+  "decay_start_epoch": 10
 }

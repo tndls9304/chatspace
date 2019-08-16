@@ -50,7 +50,7 @@ class ChatSpaceDataset(Dataset):
             model_input = {"input": list(self.texts[idx])}
 
         model_input["input"] = self.indexer.encode(
-            model_input["input"], min_seq_len=self.config["min_seq_len"], unk_word="[UNK]"
+            model_input["input"], min_seq_len=self.config["min_seq_len"], unk_word="<unk>"
         )
         model_input["length"] = len(model_input["input"])
         return model_input
