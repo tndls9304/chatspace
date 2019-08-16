@@ -13,7 +13,7 @@ CORPUS_PATH = os.environ["CORPUS_PATH"]
 with open(CONFIG_PATH) as f:
     config = json.load(f)
 
-vocab = Vocab.load(VOCAB_PATH, with_forward_special_tokens=True)
+vocab = Vocab.load(VOCAB_PATH)
 config["vocab_size"] = len(vocab)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
